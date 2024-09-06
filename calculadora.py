@@ -1,11 +1,11 @@
+# Grazielly Cristine Pereira de Santana
+
 import ttkbootstrap as ttk # Importa a biblioteca ttkbootstrap
 from ttkbootstrap.constants import * #Importa constantes úteis do ttkbootstrap
 from PIL import Image, ImageTk # Importa a biblioteca PIL para as imagens
 from functools import partial # Importa partial para facilitar a passagem de argumentos em callbacks
 import os # Importa a biblioteca os
-import sys # Importa a biblioteca sys para acessar o sistema
-
-# Isabeelle de Souza Moreira
+import sys # Importa a biblioteca sys para acessar o sistemahb 
 
 def resource_path(relative_path):
     """ Obtém o caminho absoluto para o recurso , funciona para dev e para o PyInstaller """
