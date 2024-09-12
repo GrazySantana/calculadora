@@ -5,7 +5,9 @@ from ttkbootstrap.constants import * #Importa constantes úteis do ttkbootstrap
 from PIL import Image, ImageTk # Importa a biblioteca PIL para as imagens
 from functools import partial # Importa partial para facilitar a passagem de argumentos em callbacks
 import os # Importa a biblioteca os
-import sys # Importa a biblioteca sys para acessar o sistemahb 
+import sys # Importa a biblioteca sys para acessar o sistema
+
+
 
 def resource_path(relative_path):
     """ Obtém o caminho absoluto para o recurso , funciona para dev e para o PyInstaller """
@@ -105,7 +107,7 @@ class Calculadora:
         self.frame_tema = ttk.Frame(self.janela)
         self.frame_tema.pack(fill='x', padx=10, pady=10)
          # Meu nome
-        self.label_nome = ttk.Label(self.frame_tema, text="Isa Souza", font=('Roboto', 15 ))
+        self.label_nome = ttk.Label(self.frame_tema, text="Grazielly Cristine", font=('Roboto', 15 ))
         self.label_nome.pack(side='top', pady=(0, 5)) 
         # Label "Escolher tema:"
         self.label_tema = ttk.Label(self.frame_tema, text="Escolher tema:", font=('Roboto', 12))
